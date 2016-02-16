@@ -1,6 +1,6 @@
 {
   "name": "required-parameters",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NodeJS middleware which validates and requires parameters, also filling out any default parameters",
   "main": "index.js",
   "scripts": {
@@ -32,5 +32,8 @@
     "mocha": "^2.4.5",
     "rootpath": "^0.1.2",
     "supertest": "^1.2.0"
+  },
+  "dependencies": {
+    "json-plus": "^1.0.0"
   }
 }
