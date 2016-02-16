@@ -1,0 +1,36 @@
+{
+  "name": "required-parameters",
+  "version": "1.0.0",
+  "description": "NodeJS middleware which validates and requires parameters, also filling out any default parameters",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/*.test.js"
+  },
+  "keywords": [
+    "required",
+    "parameters",
+    "params",
+    "validate",
+    "require",
+    "http",
+    "middleware",
+    "422"
+  ],
+  "homepage": "https://github.com/JamieREvans/RequiredParams",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JamieREvans/RequiredParams.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JamieREvans/RequiredParams/issues"
+  },
+  "author": "Jamie Evans <jamie.riley.evans@gmail.com> (https://github.com/JamieREvans)",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "express": "^4.13.4",
+    "mocha": "^2.4.5",
+    "rootpath": "^0.1.2",
+    "supertest": "^1.2.0"
+  }
+}
